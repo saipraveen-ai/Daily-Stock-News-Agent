@@ -1,0 +1,180 @@
+# Daily Stock News Agent - Configuration
+
+# ================================
+# Channel Configurations
+# ================================
+channels:
+  moneypurse:
+    name: "MoneyPurse"
+    url: "https://www.youtube.com/@MoneyPurse"
+    channel_id: "@MoneyPurse"
+    upload_time_range: "18:00-20:00"
+    max_video_duration: 3600
+    language: "te-IN"
+    
+  daytradertelugu:
+    name: "Day Trader Telugu"
+    url: "https://www.youtube.com/@daytradertelugu" 
+    channel_id: "@daytradertelugu"
+    upload_time_range: "18:00-20:00"
+    max_video_duration: 3600
+    language: "te-IN"
+
+# ================================
+# Processing Settings
+# ================================
+processing:
+  # YouTube Processing
+  youtube:
+    download_path: "./data/videos"
+    quality_preference: "best[height<=720]"
+    max_concurrent_downloads: 2
+    timeout: 1800
+    
+  # Speech-to-Text
+  speech_to_text:
+    default_provider: "whisper"  # whisper, google, assemblyai, revai, auto
+    enable_translation: true
+    source_language: "te-IN"
+    target_language: "en"
+    output_path: "./data/transcripts"
+    chunk_size: 30  # seconds
+    
+    # Provider-specific settings
+    whisper:
+      model_size: "base"  # tiny, base, small, medium, large
+      
+    google:
+      language_code: "te-IN"
+      enable_automatic_punctuation: true
+      
+    assemblyai:
+      language_code: "te"
+      speaker_labels: false
+      
+  # Content Analysis
+  content_analysis:
+    ai_provider: "local"  # local, openai, gemini, anthropic, auto
+    output_path: "./data/analysis"
+    confidence_threshold: 0.6
+    max_segments: 30
+    
+    # Analysis types to perform
+    analysis_types:
+      - "stock_recommendations"
+      - "market_sentiment"
+      - "sector_analysis"
+      - "technical_analysis"
+      - "news_events"
+      - "key_segments"
+    
+  # Report Generation
+  report_generation:
+    output_path: "./data/reports"
+    default_formats: ["markdown", "json"]
+    template_path: "./templates"
+    include_charts: false
+    include_comparison: true
+
+# ================================
+# Automation Settings
+# ================================
+automation:
+  enabled: true
+  daily_processing_time: "19:30"  # 24-hour format
+  report_delivery_time: "22:00"
+  timezone: "Asia/Kolkata"
+  
+  # Retry settings
+  max_retries: 3
+  retry_delay: 300  # seconds
+  exponential_backoff: true
+  
+  # Monitoring
+  health_check_interval: 300  # seconds
+  max_processing_time: 7200  # 2 hours
+  
+# ================================
+# Storage Settings  
+# ================================
+storage:
+  # File retention (days, 0 = keep forever)
+  keep_videos: 7
+  keep_transcripts: 7
+  keep_analyses: 90
+  keep_reports: 365
+  
+  # Backup settings
+  backup_enabled: false
+  backup_path: "./backups"
+  backup_frequency: "daily"  # daily, weekly, monthly
+
+# ================================
+# AI Provider Settings
+# ================================
+ai_providers:
+  openai:
+    model: "gpt-4"
+    max_tokens: 4000
+    temperature: 0.1
+    
+  gemini:
+    model: "gemini-pro"
+    temperature: 0.1
+    
+  anthropic:
+    model: "claude-3-sonnet-20240229"
+    max_tokens: 4000
+    temperature: 0.1
+
+# ================================
+# Logging Configuration
+# ================================
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file_path: "./logs/stock_news_agent.log"
+  max_file_size: "10MB"
+  backup_count: 5
+  
+# ================================
+# Notification Settings
+# ================================
+notifications:
+  enabled: false
+  
+  email:
+    enabled: false
+    smtp_server: "smtp.gmail.com"
+    smtp_port: 587
+    
+  slack:
+    enabled: false
+    
+  telegram:
+    enabled: false
+
+# ================================
+# Security Settings
+# ================================
+security:
+  api_rate_limiting:
+    enabled: true
+    calls_per_hour: 100
+    
+  data_privacy:
+    anonymize_logs: false
+    encrypt_storage: false
+    
+# ================================
+# Performance Settings
+# ================================
+performance:
+  max_concurrent_operations: 4
+  memory_limit: "2GB"
+  processing_timeout: 1800
+  
+  # Optimization flags
+  optimize_for_speed: true
+  optimize_for_quality: false
+  enable_caching: true

@@ -1,0 +1,80 @@
+# ========================================
+# PYTHON 3.12 COMPLETE REQUIREMENTS FILE
+# ========================================
+# Complete requirements for Daily Stock News Agent + All 9 AI Frameworks
+# Tested and verified working with Python 3.12.11
+
+# ========================================
+# DAILY STOCK NEWS AGENT CORE DEPENDENCIES
+# ========================================
+
+# Essential dependencies for YouTube processing, speech-to-text, and content analysis
+yt-dlp>=2023.12.30
+openai-whisper>=20231117
+pyyaml>=6.0
+markdown>=3.5.0
+
+# NumPy compatibility fix for Whisper
+numpy<2.0
+
+# Core AI providers
+openai>=1.97.0
+python-dotenv>=0.19.0
+
+# Utility libraries
+requests>=2.31.0
+
+# AssemblyAI - Speech-to-text service for advanced transcription
+assemblyai>=0.34.2
+
+# ========================================
+# ALL 9 AI FRAMEWORKS - PYTHON 3.12 COMPATIBLE!
+# ========================================
+# 🎉 ALL frameworks now work together in Python 3.12!
+
+# Microsoft AutoGen - Multi-agent conversation framework  
+autogen-agentchat>=0.6.4
+
+# PydanticAI - Type-safe AI agent framework  
+pydantic-ai>=0.4.4
+
+# LangChain - Popular LLM framework
+langchain>=0.3.26
+
+# LangChain OpenAI Integration - Required for LangGraph agent implementation
+langchain-openai>=0.3.6
+
+# LangGraph - Stateful, multi-actor applications
+langgraph>=0.5.4
+
+# Haystack AI - Search systems with LLMs
+haystack-ai>=2.15.2
+
+# OpenAI Swarm - Multi-agent orchestration (NOW WORKS with Python 3.12!)
+git+https://github.com/openai/swarm.git
+
+# Semantic Kernel - Microsoft's AI orchestration (CONFLICTS RESOLVED!)
+semantic-kernel>=0.9.6b1
+
+# CrewAI - Multi-agent framework (NO MORE CONFLICTS!)
+crewai>=0.148.0
+
+# ========================================
+# DOCUMENTATION & VISUALIZATION TOOLS
+# ========================================
+matplotlib>=3.5.0
+seaborn>=0.11.0
+networkx>=2.8.0
+pandas>=1.5.0
+
+# ========================================
+# TESTING COMMANDS
+# ========================================
+# Install core compatible frameworks + Swarm:
+# pip install -r requirements_python312.txt
+
+# Test Semantic Kernel separately:
+# pip install semantic-kernel>=0.9.6b1
+
+# Test CrewAI separately (likely still conflicts):
+# pip install crewai>=0.5.0

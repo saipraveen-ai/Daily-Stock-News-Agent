@@ -1,0 +1,218 @@
+# Daily-Stock-News-Agent/.gitignore
+
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ================================
+# Virtual Environments
+# ================================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ================================
+# Environment Variables
+# ================================
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# ================================
+# Data Directories
+# ================================
+data/videos/*.mp4
+data/videos/*.webm
+data/videos/*.mkv
+data/videos/*.avi
+data/transcripts/*.json
+data/transcripts/*.txt
+data/transcripts/*.srt
+data/analysis/*.json
+data/reports/*.md
+data/reports/*.html
+data/reports/*.pdf
+data/blogs/*.md
+data/blogs/*.html
+
+# Keep directory structure but ignore content
+!data/videos/.gitkeep
+!data/transcripts/.gitkeep
+!data/analysis/.gitkeep
+!data/reports/.gitkeep
+!data/blogs/.gitkeep
+
+# ================================
+# Logs
+# ================================
+logs/*.log
+logs/*.log.*
+*.log
+
+# Keep logs directory
+!logs/.gitkeep
+
+# ================================
+# API Keys and Credentials
+# ================================
+*.key
+*.pem
+*-credentials.json
+google-credentials.json
+service-account.json
+
+# ================================
+# Temporary Files
+# ================================
+*.tmp
+*.temp
+.tmp/
+.temp/
+*~
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ================================
+# IDE and Editor Files
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.metadata
+.classpath
+.settings/
+
+# ================================
+# AI Model Files (too large for git)
+# ================================
+*.pt
+*.pth
+*.onnx
+*.pb
+models/
+whisper-models/
+
+# ================================
+# Backup Files
+# ================================
+backups/
+*.backup
+*.bak
+
+# ================================
+# Test Files
+# ================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# ================================
+# Documentation Build
+# ================================
+docs/_build/
+docs/build/
+site/
+
+# ================================
+# Package Files
+# ================================
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# ================================
+# Config Files (may contain sensitive info)
+# ================================
+config.local.yaml
+config.production.yaml
+settings.local.json
+
+# ================================
+# Database Files
+# ================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ================================
+# Cache Directories
+# ================================
+.cache/
+__pycache__/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ================================
+# YouTube-DL Cache
+# ================================
+.ytdl-cache/
+
+# ================================
+# Jupyter Notebook
+# ================================
+.ipynb_checkpoints
+
+# ================================
+# pyenv
+# ================================
+.python-version
+
+# ================================
+# pipenv
+# ================================
+Pipfile.lock
+
+# ================================
+# poetry
+# ================================
+poetry.lock
+
+# ================================
+# Conda
+# ================================
+.conda/

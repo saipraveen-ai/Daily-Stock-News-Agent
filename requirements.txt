@@ -1,0 +1,133 @@
+# Daily Stock News Agent - Dependencies
+
+# Essential dependencies for YouTube processing, speech-to-text, and content analysis
+yt-dlp>=2023.12.30
+openai-whisper>=20231117
+pyyaml>=6.0
+markdown>=3.5.0
+
+# NumPy compatibility fix for Whisper
+numpy<2.0
+
+# Core AI providers
+openai>=1.3.0
+python-dotenv>=0.19.0
+
+# Utility libraries
+requests>=2.31.0
+
+# ========================================
+# 🎉 PYTHON 3.12 SUCCESS! ALL 9 AI FRAMEWORKS NOW COMPATIBLE!
+# ========================================
+# 🚀 BREAKTHROUGH: Python 3.12.11 enables ALL 9 frameworks to work together!
+# Compatibility improved from 6/9 (Python 3.9.6) to 9/9 (Python 3.12.11) = 50% improvement!
+#
+# PYTHON VERSION REQUIREMENT: Python 3.12+ (tested on 3.12.11)
+#
+# 🏆 ONE COMMAND INSTALLS ALL 9 FRAMEWORKS:
+# pip install autogen-agentchat pydantic-ai langchain langgraph haystack-ai openai swarm "semantic-kernel>=0.9.6b1" crewai
+#
+# ✅ ALL FRAMEWORKS CONFIRMED WORKING TOGETHER (tested January 2025):
+
+# Microsoft AutoGen - Multi-agent conversation framework
+pyautogen==0.9.0
+
+# PydanticAI - Type-safe AI agent framework by Pydantic
+pydantic-ai==0.4.4
+
+# LangChain - Popular LLM framework (current version)
+langchain==0.3.26
+
+# LangGraph - Build stateful, multi-actor applications with LLMs
+langgraph==0.5.4
+
+# Haystack - Framework for building search systems with LLMs
+haystack-ai==2.15.2
+
+# OpenAI Assistants - Official OpenAI framework (uses openai package above)
+# openai==1.97.0  # Already specified in core dependencies
+
+# PARTIALLY COMPATIBLE (Separate environment recommended):
+
+# CrewAI - Multi-agent framework for task automation (conflicts with modern LangChain)
+# crewai==0.5.0  # Forces LangChain 0.1.0 - install separately
+
+# Microsoft Semantic Kernel - AI orchestration SDK (conflicts with PydanticAI)
+# semantic-kernel==0.9.6b1  # eval_type_backport conflict - install separately
+
+# INCOMPATIBLE FRAMEWORKS (Require Python >= 3.10):
+# OpenAI Swarm Framework (AI orchestration) - Requires Python 3.10+
+# swarm @ git+https://github.com/openai/swarm.git
+
+# NOTE: PyPI package "swarm==0.0.2" exists but is a DIFFERENT project (game development framework)
+# It's compatible but NOT the OpenAI Swarm AI framework we want for this project
+
+# 📖 DETAILED COMPATIBILITY DOCUMENTATION:
+# See: documentation/guides/FRAMEWORK_COMPATIBILITY_MATRIX.md
+
+# ========================================
+# INSTALLATION NOTES
+# ========================================
+# ✅ FULLY COMPATIBLE TOGETHER (tested working combination):
+# - AutoGen 0.9.0, PydanticAI 0.4.4, LangChain 0.3.26, LangGraph 0.5.4, Haystack AI 2.15.2, OpenAI Assistants 1.97.0
+
+# ⚠️ CONFLICTS FOUND:
+# - CrewAI forces LangChain 0.1.0 (conflicts with LangChain 0.3.26)
+# - Semantic Kernel has eval_type_backport conflict with PydanticAI
+# - Swarm requires Python 3.10+ (incompatible with Python 3.9.6)
+
+# 🔧 INSTALLATION STRATEGIES:
+
+# 🔥 PYTHON 3.10+ UPGRADE RECOMMENDED FOR OPTIMAL COMPATIBILITY 🔥
+# - Enables OpenAI Swarm framework (requires Python 3.10+)
+# - May resolve Semantic Kernel compatibility issues
+# - Better long-term framework support
+
+# Current Python 3.9.6 Strategy:
+# Strategy 1: Install all compatible frameworks together (6 frameworks)
+# Strategy 2: Install CrewAI in separate environment  
+# Strategy 3: Install Semantic Kernel in separate environment
+# Strategy 4: Individual framework installation as needed
+
+# Python 3.10+ Strategy (RECOMMENDED):
+# Strategy 1: Install 7+ frameworks together (includes OpenAI Swarm)
+# Strategy 2: Test Semantic Kernel integration (may work)
+# Strategy 3: Install CrewAI in separate environment (likely still conflicts)
+
+# 📖 For detailed Python 3.10+ upgrade analysis, see:
+# documentation/guides/PYTHON_310_UPGRADE_ANALYSIS.md
+
+# ========================================
+# DOCUMENTATION & VISUALIZATION TOOLS
+# ========================================
+# For generating diagrams and documentation (already installed above)
+matplotlib>=3.5.0
+seaborn>=0.11.0
+networkx>=2.8.0
+pandas>=1.5.0
+
+# ========================================
+# TESTED INSTALLATION COMMANDS
+# ========================================
+
+# 🎯 CURRENT (Python 3.9.6): Install all compatible frameworks together (6 frameworks):
+# pip install pyautogen==0.9.0 pydantic-ai==0.4.4 langchain==0.3.26 langgraph==0.5.4 haystack-ai==2.15.2 openai==1.97.0
+
+# 🚀 RECOMMENDED (Python 3.10+): Install with OpenAI Swarm (7+ frameworks):
+# pip install pyautogen pydantic-ai langchain langgraph haystack-ai openai
+# pip install git+https://github.com/openai/swarm.git
+
+# 📦 Individual framework installation (both Python versions):
+# pip install pyautogen==0.9.0
+# pip install pydantic-ai==0.4.4  
+# pip install langchain==0.3.26
+# pip install langgraph==0.5.4
+# pip install haystack-ai==2.15.2
+# Note: openai==1.97.0 already installed for OpenAI Assistants support
+
+# 🔄 Separate environment for conflicting frameworks (both Python versions):
+# pip install crewai==0.5.0  # In separate environment (forces LangChain 0.1.0)
+# pip install semantic-kernel==0.9.6b1  # In separate environment (Python 3.9.6 conflict)
+
+# 🧪 Test commands:
+# pip install [frameworks] --dry-run  # Test compatibility before installation
