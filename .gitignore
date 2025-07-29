@@ -36,6 +36,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+python312_test_env/
+test_env/
+*_env/
+*_venv/
 
 # ================================
 # Environment Variables
@@ -49,17 +53,23 @@ venv.bak/
 # ================================
 # Data Directories
 # ================================
-data/videos/*.mp4
-data/videos/*.webm
-data/videos/*.mkv
-data/videos/*.avi
-data/transcripts/*.json
-data/transcripts/*.txt
-data/transcripts/*.srt
-data/analysis/*.json
-data/reports/*.md
-data/reports/*.html
-data/reports/*.pdf
+data/videos/
+*.mp4
+*.webm
+*.mkv
+*.avi
+*.wav
+*.mp3
+*.m4a
+*.flac
+# Note: Including transcripts, analysis, and reports as they are valuable outputs
+# data/transcripts/*.json
+# data/transcripts/*.txt
+# data/transcripts/*.srt
+# data/analysis/*.json
+# data/reports/*.md
+# data/reports/*.html
+# data/reports/*.pdf
 data/blogs/*.md
 data/blogs/*.html
 
