@@ -1,0 +1,422 @@
+{
+  "channel": "daytradertelugu",
+  "video_title": "🚨NEXT 5Years కోసం 10 BEST స్టాక్స్, Portfolio stocks FALL, Dam capital stock fall",
+  "analysis_date": "2025-07-25",
+  "market_sentiment": "BEARISH",
+  "key_themes": [
+    "Market Fall",
+    "OTT Apps",
+    "Government Investments"
+  ],
+  "stock_recommendations": [
+    {
+      "symbol": "Not Mentioned",
+      "company_name": "Epack Durable",
+      "action": "Not Mentioned",
+      "target_price": "null",
+      "current_price": null,
+      "rationale": "Not Mentioned",
+      "confidence": 0.0,
+      "time_horizon": "Not Mentioned",
+      "risk_level": "medium"
+    },
+    {
+      "symbol": "Not Mentioned",
+      "company_name": "IEX",
+      "action": "Not Mentioned",
+      "target_price": "null",
+      "current_price": null,
+      "rationale": "Not Mentioned",
+      "confidence": 0.0,
+      "time_horizon": "Not Mentioned",
+      "risk_level": "medium"
+    },
+    {
+      "symbol": "Not Mentioned",
+      "company_name": "Bharat Dynamics",
+      "action": "Not Mentioned",
+      "target_price": "null",
+      "current_price": null,
+      "rationale": "Not Mentioned",
+      "confidence": 0.0,
+      "time_horizon": "Not Mentioned",
+      "risk_level": "medium"
+    },
+    {
+      "symbol": "Not Mentioned",
+      "company_name": "BEL",
+      "action": "Not Mentioned",
+      "target_price": "null",
+      "current_price": null,
+      "rationale": "Not Mentioned",
+      "confidence": 0.0,
+      "time_horizon": "Not Mentioned",
+      "risk_level": "medium"
+    },
+    {
+      "symbol": "Not Mentioned",
+      "company_name": "Authum Investment",
+      "action": "Not Mentioned",
+      "target_price": "null",
+      "current_price": null,
+      "rationale": "Not Mentioned",
+      "confidence": 0.0,
+      "time_horizon": "Not Mentioned",
+      "risk_level": "medium"
+    },
+    {
+      "symbol": "Not Mentioned",
+      "company_name": "Samvardhana Motherson",
+      "action": "Not Mentioned",
+      "target_price": "null",
+      "current_price": null,
+      "rationale": "Not Mentioned",
+      "confidence": 0.0,
+      "time_horizon": "Not Mentioned",
+      "risk_level": "medium"
+    },
+    {
+      "symbol": "Not Mentioned",
+      "company_name": "G R Infraprojects",
+      "action": "Not Mentioned",
+      "target_price": "null",
+      "current_price": null,
+      "rationale": "Not Mentioned",
+      "confidence": 0.0,
+      "time_horizon": "Not Mentioned",
+      "risk_level": "medium"
+    }
+  ],
+  "sector_insights": {
+    "IT": {
+      "mentions": 0,
+      "sentiment": "NEUTRAL",
+      "keywords_found": []
+    },
+    "Banking": {
+      "mentions": 1,
+      "sentiment": "BEARISH",
+      "keywords_found": [
+        "Bank Nifty",
+        "stress rates"
+      ]
+    }
+  },
+  "technical_signals": {
+    "support": {
+      "found": true,
+      "keywords": [
+        "support"
+      ],
+      "context": [
+        "They are expected to find support at 17,900 points, a level that has provided support multiple times in the past month."
+      ]
+    },
+    "resistance": {
+      "found": false,
+      "keywords": [],
+      "context": []
+    }
+  },
+  "chapter_summary": [
+    {
+      "chapter_title": "Market Analysis",
+      "time_range": "00:00 - 08:53",
+      "key_points": [
+        "Significant fall in Nifty and Bank Nifty",
+        "Global markets performing well",
+        "Indian equity markets at low levels",
+        "Expectation of support at 17,900 points"
+      ],
+      "stocks_mentioned": [],
+      "main_topics": [
+        "Market Analysis"
+      ],
+      "summary": "The chapter discusses the current state of the market, highlighting the fall in Nifty and Bank Nifty. It also mentions the performance of global markets and the low levels of Indian equity markets."
+    }
+  ],
+  "market_segments": [
+    {
+      "timestamp": "252",
+      "topic": "The growth of the growth of 127% is net profit",
+      "content": "the growth of the growth of 127% is net profit",
+      "category": "sector_analysis",
+      "importance": 0.5,
+      "keywords": [
+        "127%"
+      ]
+    },
+    {
+      "timestamp": "270",
+      "topic": "The revenue growth of 25% is increasing",
+      "content": "the revenue growth of 25% is increasing",
+      "category": "news_events",
+      "importance": 0.5,
+      "keywords": [
+        "25%"
+      ]
+    },
+    {
+      "timestamp": "275",
+      "topic": "The strong set of revenue growth is 42% growth",
+      "content": "the strong set of revenue growth is 42% growth",
+      "category": "news_events",
+      "importance": 0.5,
+      "keywords": [
+        "42%"
+      ]
+    },
+    {
+      "timestamp": "278",
+      "topic": "If you look at the numbers, the revenue growth of...",
+      "content": "if you look at the numbers, the revenue growth of 42% is increasing",
+      "category": "news_events",
+      "importance": 0.5,
+      "keywords": [
+        "42%"
+      ]
+    },
+    {
+      "timestamp": "081",
+      "topic": "If we go to 24%, if we go to 48%, we will get the...",
+      "content": "if we go to 24%, if we go to 48%, we will get the chance to get the chance to get the chance to grow in this segment",
+      "category": "news_events",
+      "importance": 0.4,
+      "keywords": [
+        "48%",
+        "24%"
+      ]
+    },
+    {
+      "timestamp": "193",
+      "topic": "The price of the car is almost 18%",
+      "content": "the price of the car is almost 18%",
+      "category": "stock_recommendations",
+      "importance": 0.4,
+      "keywords": [
+        "18%"
+      ]
+    },
+    {
+      "timestamp": "218",
+      "topic": "22% of profit is a big",
+      "content": "22% of profit is a big",
+      "category": "sector_analysis",
+      "importance": 0.4,
+      "keywords": [
+        "22%"
+      ]
+    },
+    {
+      "timestamp": "229",
+      "topic": "70% of net npa is the little impact in the overall...",
+      "content": "70% of net npa is the little impact in the overall consequences of the uncertain street prices",
+      "category": "stock_recommendations",
+      "importance": 0.4,
+      "keywords": [
+        "70%"
+      ]
+    },
+    {
+      "timestamp": "251",
+      "topic": "Revenue is 31% operating side",
+      "content": "revenue is 31% operating side",
+      "category": "news_events",
+      "importance": 0.4,
+      "keywords": [
+        "31%"
+      ]
+    },
+    {
+      "timestamp": "263",
+      "topic": "The profit of 28% is elevated",
+      "content": "the profit of 28% is elevated",
+      "category": "sector_analysis",
+      "importance": 0.4,
+      "keywords": [
+        "28%"
+      ]
+    },
+    {
+      "timestamp": "156",
+      "topic": "It may be due to this as the stock is adding that...",
+      "content": "it may be due to this as the stock is adding that, if we put it in your wifi home, for the next 5 years, of almost $60 billion per week, this 5 years will be the same",
+      "category": "stock_recommendations",
+      "importance": 0.30000000000000004,
+      "keywords": []
+    },
+    {
+      "timestamp": "073",
+      "topic": "You know that the exchange rate is 6 to 7%",
+      "content": "you know that the exchange rate is 6 to 7%",
+      "category": "news_events",
+      "importance": 0.3,
+      "keywords": [
+        "7%"
+      ]
+    },
+    {
+      "timestamp": "077",
+      "topic": "As a developing economy, the exchange rate is 6 t...",
+      "content": "as a developing economy, the exchange rate is 6 to 7%",
+      "category": "news_events",
+      "importance": 0.3,
+      "keywords": [
+        "7%"
+      ]
+    },
+    {
+      "timestamp": "078",
+      "topic": "It is a minimum 40% to maximum 70% to 80% in many...",
+      "content": "it is a minimum 40% to maximum 70% to 80% in many countries",
+      "category": "sector_analysis",
+      "importance": 0.3,
+      "keywords": [
+        "40%",
+        "70%",
+        "80%"
+      ]
+    },
+    {
+      "timestamp": "080",
+      "topic": "So, if we are going to go to 12% for 6% even now,...",
+      "content": "so, if we are going to go to 12% for 6% even now, we are going to develop business",
+      "category": "news_events",
+      "importance": 0.3,
+      "keywords": [
+        "12%",
+        "6%"
+      ]
+    },
+    {
+      "timestamp": "284",
+      "topic": "In aggro sales, almost 43% of the country is in e...",
+      "content": "in aggro sales, almost 43% of the country is in europe",
+      "category": "news_events",
+      "importance": 0.3,
+      "keywords": [
+        "43%"
+      ]
+    },
+    {
+      "timestamp": "285",
+      "topic": "In balance sheet, almost 70% crore",
+      "content": "in balance sheet, almost 70% crore",
+      "category": "news_events",
+      "importance": 0.3,
+      "keywords": [
+        "70%"
+      ]
+    },
+    {
+      "timestamp": "287",
+      "topic": "If you post strong numbers, you can get 56% of ff",
+      "content": "if you post strong numbers, you can get 56% of ff",
+      "category": "news_events",
+      "importance": 0.3,
+      "keywords": [
+        "56%"
+      ]
+    },
+    {
+      "timestamp": "288",
+      "topic": "If you post 15% of top line, you can get 18% of m...",
+      "content": "if you post 15% of top line, you can get 18% of margin",
+      "category": "news_events",
+      "importance": 0.3,
+      "keywords": [
+        "15%",
+        "18%"
+      ]
+    },
+    {
+      "timestamp": "088",
+      "topic": "If you work at 2 & 20 co-ачs, there are so many p...",
+      "content": "if you work at 2 & 20 co-ачs, there are so many platforms, but at least if we compare those platforms, there is no chance for them to be in the first place",
+      "category": "news_events",
+      "importance": 0.2,
+      "keywords": []
+    },
+    {
+      "timestamp": "110",
+      "topic": "According to the national security reasons, they...",
+      "content": "according to the national security reasons, they are updating the details and details and also updating the defense space to order the 1640 crores in bel",
+      "category": "sector_analysis",
+      "importance": 0.2,
+      "keywords": []
+    },
+    {
+      "timestamp": "115",
+      "topic": "They have also ordered the six ehm lavoroance sys...",
+      "content": "they have also ordered the six ehm lavoroance systems paranga signature seekers stay at the door, trapastati 125to seventeen communications",
+      "category": "news_events",
+      "importance": 0.2,
+      "keywords": []
+    },
+    {
+      "timestamp": "118",
+      "topic": "In the 2016 website, the 14 apps in google play s...",
+      "content": "in the 2016 website, the 14 apps in google play store, 5 apple play store, and the 12 apps in the app store, they made an online statement",
+      "category": "sector_analysis",
+      "importance": 0.2,
+      "keywords": []
+    },
+    {
+      "timestamp": "141",
+      "topic": "But in the last 1 year, 5 years, the stock is sti...",
+      "content": "but in the last 1 year, 5 years, the stock is still in business",
+      "category": "stock_recommendations",
+      "importance": 0.2,
+      "keywords": []
+    },
+    {
+      "timestamp": "143",
+      "topic": "If you look at the price of the sudden, the stock...",
+      "content": "if you look at the price of the sudden, the stock will be in the stock of the block trade",
+      "category": "stock_recommendations",
+      "importance": 0.2,
+      "keywords": []
+    },
+    {
+      "timestamp": "155",
+      "topic": "Friends, by 2030, $120 billion on india, does not...",
+      "content": "friends, by 2030, $120 billion on india, does not convert the government into a new government for inr",
+      "category": "news_events",
+      "importance": 0.2,
+      "keywords": []
+    },
+    {
+      "timestamp": "157",
+      "topic": "If 10 stocks will be there in 5 years, if the cos...",
+      "content": "if 10 stocks will be there in 5 years, if the cost of money's control might be outdated",
+      "category": "stock_recommendations",
+      "importance": 0.2,
+      "keywords": []
+    },
+    {
+      "timestamp": "164",
+      "topic": "In this event the team won most of theelae these...",
+      "content": "in this event the team won most of theelae these prizewriners from oil, black, heart, dmno沒有 maovies this incident will beから he let me see the court has received this momentum the price of the car is rs",
+      "category": "stock_recommendations",
+      "importance": 0.2,
+      "keywords": []
+    },
+    {
+      "timestamp": "188",
+      "topic": "The stock is a close in price of rs",
+      "content": "the stock is a close in price of rs",
+      "category": "stock_recommendations",
+      "importance": 0.2,
+      "keywords": []
+    },
+    {
+      "timestamp": "198",
+      "topic": "In fact, the stock is being stocked for 4 years",
+      "content": "in fact, the stock is being stocked for 4 years",
+      "category": "stock_recommendations",
+      "importance": 0.2,
+      "keywords": []
+    }
+  ],
+  "confidence_score": 1.0
+}

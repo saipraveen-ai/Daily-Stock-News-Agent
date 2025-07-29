@@ -18,6 +18,9 @@ from langchain.schema import AgentAction, AgentFinish
 from langchain.callbacks import BaseCallbackHandler
 from pydantic import BaseModel, Field
 
+# Import content caching utilities
+from content_cache_utils import get_or_download_videos, get_or_transcribe_videos, ContentCache
+
 
 class StockAnalysisResult(BaseModel):
     """Structured result from stock analysis"""
@@ -34,21 +37,40 @@ class YouTubeProcessingTool(BaseTool):
     name = "youtube_processor"
     description = "Downloads and processes YouTube videos from stock channels"
     
-    def _run(self, channel: str, date: str = None) -> List[Dict[str, Any]]:
-        """Download videos from specified channel"""
-        # Simulate video processing
+    def _run(self, channels: str, date: str = None) -> List[Dict[str, Any]]:
+        """Download videos from specified channels"""
+        if date is None:
+            date = datetime.now().strftime('%Y-%m-%d')
+        
+        print(f"📥 [LangChain] Checking for existing videos: {channels} on {date}")
+        
+        # Check if videos already exist for this date
+        skip_download, cached_videos, cache_message = get_or_download_videos(channels, date)
+        
+        if skip_download:
+            print(f"✅ [LangChain] {cache_message}")
+            return cached_videos
+        
+        print(f"📥 [LangChain] {cache_message}")
+        print(f"📥 [LangChain] Proceeding with fresh download from: {channels}")
+        
+        # Here would be actual yt-dlp download logic
+        # For now, simulate the process
         videos = [
             {
-                "title": f"Today's Market Analysis - {channel}",
-                "file_path": f"./data/videos/{channel}_{date or datetime.now().strftime('%Y%m%d')}.mp4",
+                "title": f"Today's Market Analysis - {channels}",
+                "file_path": f"./data/videos/{date}/simulated_{channels}_{date}.mp4",
                 "duration": 1800,
-                "channel": channel
+                "channel": channels,
+                "video_id": f"sim_{date}",
+                "upload_date": date.replace('-', ''),
+                "view_count": 1000
             }
         ]
         return videos
     
-    async def _arun(self, channel: str, date: str = None) -> List[Dict[str, Any]]:
-        return self._run(channel, date)
+    async def _arun(self, channels: str, date: str = None) -> List[Dict[str, Any]]:
+        return self._run(channels, date)
 
 
 class TranscriptionTool(BaseTool):
@@ -56,19 +78,43 @@ class TranscriptionTool(BaseTool):
     name = "transcription_tool"
     description = "Transcribes video content to text using OpenAI Whisper"
     
-    def _run(self, video_file: str) -> Dict[str, Any]:
-        """Transcribe video file"""
-        # Simulate transcription
-        transcript = {
-            "original_text": "Telugu stock discussion content...",
-            "translated_text": "Today we discuss market trends and stock recommendations...",
-            "language": "te",
-            "confidence": 0.95
-        }
-        return transcript
+    def _run(self, videos: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """Transcribe video files"""
+        if not videos:
+            return []
+        
+        print(f"🎤 [LangChain] Checking for existing transcripts: {len(videos)} videos")
+        
+        # Check if transcripts already exist
+        skip_transcription, cached_transcripts, cache_message = get_or_transcribe_videos(videos)
+        
+        if skip_transcription:
+            print(f"✅ [LangChain] {cache_message}")
+            return cached_transcripts
+        
+        print(f"🎤 [LangChain] {cache_message}")
+        print(f"🎤 [LangChain] Proceeding with fresh transcription of {len(videos)} videos")
+        
+        # Here would be actual Whisper transcription logic
+        # For now, simulate the process
+        transcriptions = []
+        for video in videos:
+            transcript = {
+                "video_info": video,
+                "transcription_result": {
+                    "original_text": "Telugu stock discussion content...",
+                    "translated_text": "Today we discuss market trends and stock recommendations...",
+                    "language": "te",
+                    "confidence": 0.95,
+                    "provider": "whisper"
+                }
+            }
+            transcriptions.append(transcript)
+        
+        return transcriptions
     
-    async def _arun(self, video_file: str) -> Dict[str, Any]:
-        return self._run(video_file)
+    async def _arun(self, videos: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        return self._run(videos)
 
 
 class StockAnalysisTool(BaseTool):

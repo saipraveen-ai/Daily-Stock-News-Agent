@@ -1,0 +1,97 @@
+=== LLM RAW RESPONSE FOR DAYTRADERTELUGU ===
+Video Title: 🚨NEXT 5Years కోసం 10 BEST స్టాక్స్, Portfolio stocks FALL, Dam capital stock fall
+Response Length: 3156 characters
+Timestamp: 2025-07-27
+================================================================================
+
+{
+  "stock_recommendations": [
+    {
+      "symbol": "Not Mentioned",
+      "company_name": "Epack Durable",
+      "action": "Not Mentioned",
+      "target_price": "null",
+      "rationale": "Not Mentioned",
+      "confidence": 0.0,
+      "timeframe": "Not Mentioned"
+    },
+    {
+      "symbol": "Not Mentioned",
+      "company_name": "IEX",
+      "action": "Not Mentioned",
+      "target_price": "null",
+      "rationale": "Not Mentioned",
+      "confidence": 0.0,
+      "timeframe": "Not Mentioned"
+    },
+    {
+      "symbol": "Not Mentioned",
+      "company_name": "Bharat Dynamics",
+      "action": "Not Mentioned",
+      "target_price": "null",
+      "rationale": "Not Mentioned",
+      "confidence": 0.0,
+      "timeframe": "Not Mentioned"
+    },
+    {
+      "symbol": "Not Mentioned",
+      "company_name": "BEL",
+      "action": "Not Mentioned",
+      "target_price": "null",
+      "rationale": "Not Mentioned",
+      "confidence": 0.0,
+      "timeframe": "Not Mentioned"
+    },
+    {
+      "symbol": "Not Mentioned",
+      "company_name": "Authum Investment",
+      "action": "Not Mentioned",
+      "target_price": "null",
+      "rationale": "Not Mentioned",
+      "confidence": 0.0,
+      "timeframe": "Not Mentioned"
+    },
+    {
+      "symbol": "Not Mentioned",
+      "company_name": "Samvardhana Motherson",
+      "action": "Not Mentioned",
+      "target_price": "null",
+      "rationale": "Not Mentioned",
+      "confidence": 0.0,
+      "timeframe": "Not Mentioned"
+    },
+    {
+      "symbol": "Not Mentioned",
+      "company_name": "G R Infraprojects",
+      "action": "Not Mentioned",
+      "target_price": "null",
+      "rationale": "Not Mentioned",
+      "confidence": 0.0,
+      "timeframe": "Not Mentioned"
+    }
+  ],
+  "market_sentiment": "BEARISH",
+  "confidence_score": 0.7,
+  "key_themes": ["Market Fall", "OTT Apps", "Government Investments"],
+  "sector_insights": {
+    "IT": {"mentions": 0, "sentiment": "NEUTRAL", "keywords_found": []},
+    "Banking": {"mentions": 1, "sentiment": "BEARISH", "keywords_found": ["Bank Nifty", "stress rates"]}
+  },
+  "technical_signals": {
+    "support": {"found": true, "keywords": ["support"], "context": ["They are expected to find support at 17,900 points, a level that has provided support multiple times in the past month."]},
+    "resistance": {"found": false, "keywords": [], "context": []}
+  },
+  "chapter_summary": [
+    {
+      "chapter_title": "Market Analysis",
+      "time_range": "00:00 - 08:53",
+      "key_points": ["Significant fall in Nifty and Bank Nifty", "Global markets performing well", "Indian equity markets at low levels", "Expectation of support at 17,900 points"],
+      "stocks_mentioned": [],
+      "main_topics": ["Market Analysis"],
+      "summary": "The chapter discusses the current state of the market, highlighting the fall in Nifty and Bank Nifty. It also mentions the performance of global markets and the low levels of Indian equity markets."
+    }
+  ],
+  "risks_mentioned": ["Market volatility", "Impact of Coronavirus on the market"],
+  "price_targets_mentioned": [],
+  "numerical_predictions": ["Nifty is expected to find support at 17,900 points"]
+}

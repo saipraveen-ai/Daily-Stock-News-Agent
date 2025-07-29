@@ -1,0 +1,390 @@
+{
+  "channel": "moneypurse",
+  "video_title": "Next 10 years లో ఈ 10 stocks భారీగా పెరగనున్నాయా? TatvaChintan 500% profit growth reversal started ?",
+  "analysis_date": "2025-07-25",
+  "market_sentiment": "BULLISH",
+  "key_themes": [
+    "IPO",
+    "Stock Growth",
+    "Financial Results"
+  ],
+  "stock_recommendations": [
+    {
+      "symbol": "NSDL",
+      "company_name": "National Securities Depository Limited",
+      "action": "BUY",
+      "target_price": null,
+      "current_price": null,
+      "rationale": "NSDL is a well-known cash generating business with a strong balance of assets. It's a good investment for retail shareholders who are able to track the business. The company has a strong cash flow and is a common stock in many portfolios.",
+      "confidence": 0.8,
+      "time_horizon": "medium",
+      "risk_level": "medium"
+    },
+    {
+      "symbol": "GRSE",
+      "company_name": "Garden Reach Shipbuilders & Engineers",
+      "action": "BUY",
+      "target_price": null,
+      "current_price": null,
+      "rationale": "GRSE has shown promising growth.",
+      "confidence": 0.7,
+      "time_horizon": "medium",
+      "risk_level": "medium"
+    },
+    {
+      "symbol": "MOIL",
+      "company_name": "MOIL Limited",
+      "action": "BUY",
+      "target_price": null,
+      "current_price": null,
+      "rationale": "MOIL has shown promising growth.",
+      "confidence": 0.7,
+      "time_horizon": "medium",
+      "risk_level": "medium"
+    }
+  ],
+  "sector_insights": {
+    "IT": {
+      "mentions": 1,
+      "sentiment": "NEUTRAL",
+      "keywords_found": [
+        "IT job cuts"
+      ]
+    },
+    "Banking": {
+      "mentions": 1,
+      "sentiment": "BULLISH",
+      "keywords_found": [
+        "NSDL IPO Update"
+      ]
+    }
+  },
+  "technical_signals": {
+    "support": {
+      "found": false,
+      "keywords": [],
+      "context": []
+    },
+    "resistance": {
+      "found": false,
+      "keywords": [],
+      "context": []
+    }
+  },
+  "chapter_summary": [
+    {
+      "chapter_title": "Market Update",
+      "time_range": "00:00 - 03:10",
+      "key_points": [
+        "New rupees introduced in 2017",
+        "Stock performance not up to par",
+        "Surge in stock price"
+      ],
+      "stocks_mentioned": [],
+      "main_topics": [
+        "Market Update"
+      ],
+      "summary": "The video starts with a market update discussing the introduction of new rupees in 2017 and the subsequent performance of the stock market."
+    },
+    {
+      "chapter_title": "IT Job Cuts",
+      "time_range": "03:10 - 03:40",
+      "key_points": [
+        "Companies like NRGL have started to buy IPO shares",
+        "Surge in the market",
+        "ITK Superothiau Aksu product has performed well"
+      ],
+      "stocks_mentioned": [
+        "NRGL"
+      ],
+      "main_topics": [
+        "IT Job Cuts"
+      ],
+      "summary": "The video discusses IT job cuts and how companies like NRGL have started to buy IPO shares, leading to a surge in the market."
+    },
+    {
+      "chapter_title": "NSDL IPO Update",
+      "time_range": "09:43 - 10:06",
+      "key_points": [
+        "NSDL's business model",
+        "Depository services contribute to 43.55% of its revenue",
+        "NSDL payments bank limited contributes 52.9% to the revenue"
+      ],
+      "stocks_mentioned": [
+        "NSDL"
+      ],
+      "main_topics": [
+        "NSDL IPO Update"
+      ],
+      "summary": "The video provides an update on the NSDL IPO, discussing its business model and revenue contributors."
+    }
+  ],
+  "market_segments": [
+    {
+      "timestamp": "155",
+      "topic": "The c-d-sil is located in 18908 services and the...",
+      "content": "the c-d-sil is located in 18908 services and the c-d-sil is the same as the nsgl the s-tender custody is the same as the c-d-sil in number and the c-d-sil is the same as the c-d-sil and within split equity and debt and debt, the comparison is also a major now, the high-striveny contribution is to make payment banks and to make other payment banks there it follows the composition of rtse which requires our unconscious effort to buy and cultivate distribution that is why bids give to the world and surface of non-conf glow due toettle, suggestions and the accommodation of gur소 deshalb if we have already bought the products in every package the line of manufacturers it also brought benefits and clouds therefore almost 80% of the proposed profits we bought for the management of that package in terms of growth, we need to pay high-stage procedure in payment banks, pino payments are used in 43",
+      "category": "stock_recommendations",
+      "importance": 0.6,
+      "keywords": [
+        "buy",
+        "80%"
+      ]
+    },
+    {
+      "timestamp": "162",
+      "topic": "In fino, in better cases, in 25% of cog, in growt...",
+      "content": "in fino, in better cases, in 25% of cog, in growth, in pat number, in cog, in cog, in ngl, in better growth, in better cases",
+      "category": "news_events",
+      "importance": 0.5,
+      "keywords": [
+        "25%"
+      ]
+    },
+    {
+      "timestamp": "057",
+      "topic": "55% is the highest revenue contributor",
+      "content": "55% is the highest revenue contributor",
+      "category": "news_events",
+      "importance": 0.4,
+      "keywords": [
+        "55%"
+      ]
+    },
+    {
+      "timestamp": "066",
+      "topic": "9% revenue contributions",
+      "content": "9% revenue contributions",
+      "category": "news_events",
+      "importance": 0.4,
+      "keywords": [
+        "9%"
+      ]
+    },
+    {
+      "timestamp": "084",
+      "topic": "05% revenue contribution",
+      "content": "05% revenue contribution",
+      "category": "news_events",
+      "importance": 0.4,
+      "keywords": [
+        "05%"
+      ]
+    },
+    {
+      "timestamp": "107",
+      "topic": "It looks like 16000 crores market is tabred mund...",
+      "content": "it looks like 16000 crores market is tabred mund be pet retailer la updated for $14,400 the two-foot movies and i have done it for 35% retail",
+      "category": "sector_analysis",
+      "importance": 0.4,
+      "keywords": [
+        "35%"
+      ]
+    },
+    {
+      "timestamp": "115",
+      "topic": "As we have applied to relocate our presumably at...",
+      "content": "as we have applied to relocate our presumably at 31,克ola рус, we have applied for this increase to 748% penetration",
+      "category": "news_events",
+      "importance": 0.4,
+      "keywords": [
+        "748%"
+      ]
+    },
+    {
+      "timestamp": "106",
+      "topic": "The price of the price of the price of the price...",
+      "content": "the price of the price of the price of the price of the price of the price of the price of the price of a addresses per principles, that it contains satisfaction while endowed by the high-priced stock",
+      "category": "stock_recommendations",
+      "importance": 0.30000000000000004,
+      "keywords": []
+    },
+    {
+      "timestamp": "014",
+      "topic": "16% for bracket market",
+      "content": "16% for bracket market",
+      "category": "market_sentiment",
+      "importance": 0.3,
+      "keywords": [
+        "16%"
+      ]
+    },
+    {
+      "timestamp": "093",
+      "topic": "The nsd is 24% stake",
+      "content": "the nsd is 24% stake",
+      "category": "news_events",
+      "importance": 0.3,
+      "keywords": [
+        "24%"
+      ]
+    },
+    {
+      "timestamp": "116",
+      "topic": "Our appeal is said to be 21% significant with thi...",
+      "content": "our appeal is said to be 21% significant with this increase",
+      "category": "sector_analysis",
+      "importance": 0.3,
+      "keywords": [
+        "21%"
+      ]
+    },
+    {
+      "timestamp": "117",
+      "topic": "So, we have needed to increase our rate to 25% ri...",
+      "content": "so, we have needed to increase our rate to 25% right away",
+      "category": "news_events",
+      "importance": 0.3,
+      "keywords": [
+        "25%"
+      ]
+    },
+    {
+      "timestamp": "150",
+      "topic": "The hkd pressure溤가 100% equal to 1",
+      "content": "the hkd pressure溤가 100% equal to 1",
+      "category": "news_events",
+      "importance": 0.3,
+      "keywords": [
+        "100%"
+      ]
+    },
+    {
+      "timestamp": "067",
+      "topic": "The highest revenue is that you can get the payme...",
+      "content": "the highest revenue is that you can get the payment bank services and you can get the bank's ziffian and pilsaramata",
+      "category": "news_events",
+      "importance": 0.2,
+      "keywords": []
+    },
+    {
+      "timestamp": "158",
+      "topic": "And in ebitan growth, ngl is 21",
+      "content": "and in ebitan growth, ngl is 21",
+      "category": "sector_analysis",
+      "importance": 0.2,
+      "keywords": []
+    },
+    {
+      "timestamp": "002",
+      "topic": "In 2017, 25 june, we had a series of 14 new rupee...",
+      "content": "in 2017, 25 june, we had a series of 14 new rupees",
+      "category": "news_events",
+      "importance": 0.1,
+      "keywords": []
+    },
+    {
+      "timestamp": "003",
+      "topic": "We didn't perform stock for this list",
+      "content": "we didn't perform stock for this list",
+      "category": "stock_recommendations",
+      "importance": 0.1,
+      "keywords": []
+    },
+    {
+      "timestamp": "005",
+      "topic": "We had to give 20-20 rupees",
+      "content": "we had to give 20-20 rupees",
+      "category": "news_events",
+      "importance": 0.1,
+      "keywords": []
+    },
+    {
+      "timestamp": "006",
+      "topic": "We had to give 10 bags for this",
+      "content": "we had to give 10 bags for this",
+      "category": "news_events",
+      "importance": 0.1,
+      "keywords": []
+    },
+    {
+      "timestamp": "007",
+      "topic": "We had to give 10 bags for this",
+      "content": "we had to give 10 bags for this",
+      "category": "news_events",
+      "importance": 0.1,
+      "keywords": []
+    },
+    {
+      "timestamp": "008",
+      "topic": "We had to give almost 2000 rupees for short perio...",
+      "content": "we had to give almost 2000 rupees for short period",
+      "category": "news_events",
+      "importance": 0.1,
+      "keywords": []
+    },
+    {
+      "timestamp": "009",
+      "topic": "We had to give 1600 rupees",
+      "content": "we had to give 1600 rupees",
+      "category": "news_events",
+      "importance": 0.1,
+      "keywords": []
+    },
+    {
+      "timestamp": "013",
+      "topic": "16ce engine, a game coming up, was朴 market and pre...",
+      "content": "16ce engine, a game coming up, was朴 market and predictions on soar 3",
+      "category": "market_sentiment",
+      "importance": 0.1,
+      "keywords": []
+    },
+    {
+      "timestamp": "055",
+      "topic": "Is also a revenue service",
+      "content": "is also a revenue service",
+      "category": "news_events",
+      "importance": 0.1,
+      "keywords": []
+    },
+    {
+      "timestamp": "059",
+      "topic": "The first depository segment is annual fees, regi...",
+      "content": "the first depository segment is annual fees, registration fees, custodian fees, transaction fees, software license fees, and various charges are available",
+      "category": "sector_analysis",
+      "importance": 0.1,
+      "keywords": []
+    },
+    {
+      "timestamp": "060",
+      "topic": "The revenue is also available",
+      "content": "the revenue is also available",
+      "category": "news_events",
+      "importance": 0.1,
+      "keywords": []
+    },
+    {
+      "timestamp": "061",
+      "topic": "The highest revenue contributor is n",
+      "content": "the highest revenue contributor is n",
+      "category": "news_events",
+      "importance": 0.1,
+      "keywords": []
+    },
+    {
+      "timestamp": "065",
+      "topic": "The payment bank services offer you that are 52",
+      "content": "the payment bank services offer you that are 52",
+      "category": "news_events",
+      "importance": 0.1,
+      "keywords": []
+    },
+    {
+      "timestamp": "075",
+      "topic": "The revenue is also contributing to the revenue",
+      "content": "the revenue is also contributing to the revenue",
+      "category": "news_events",
+      "importance": 0.1,
+      "keywords": []
+    },
+    {
+      "timestamp": "076",
+      "topic": "In fact, you can get good growth if you take the...",
+      "content": "in fact, you can get good growth if you take the account",
+      "category": "news_events",
+      "importance": 0.1,
+      "keywords": []
+    }
+  ],
+  "confidence_score": 1.0
+}

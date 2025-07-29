@@ -1,0 +1,39 @@
+# Framework Comparison - Installation Requirements
+# All frameworks require only OpenAI API Key - no other API keys needed
+
+# Core dependencies for all frameworks
+openai>=1.3.0
+python-dotenv>=0.19.0
+
+# LangChain implementation
+langchain>=0.1.0
+langchain-openai>=0.1.0
+langchain-community>=0.0.1
+
+# CrewAI implementation  
+crewai>=0.1.0
+
+# AutoGen implementation
+pyautogen>=0.2.0
+
+# LangGraph implementation
+langgraph>=0.1.0
+langchain-core>=0.1.0
+
+# PydanticAI implementation
+pydantic-ai>=0.1.0
+pydantic>=2.0.0
+
+# OpenAI Swarm implementation
+git+https://github.com/openai/swarm.git
+
+# Semantic Kernel implementation
+semantic-kernel>=0.4.0
+
+# Haystack implementation  
+haystack-ai>=2.0.0
+
+# Additional utilities
+asyncio-mqtt>=0.11.0
+pyyaml>=6.0
+markdown>=3.4.0

@@ -1,0 +1,157 @@
+=== COMPLETE LLM PROMPT FOR MONEYPURSE ===
+Video Title: Next 10 years లో ఈ 10 stocks భారీగా పెరగనున్నాయా? TatvaChintan 500% profit growth reversal started ?
+Prompt Length: 7042 characters
+Timestamp: 2025-07-27
+================================================================================
+
+
+You are an expert Indian stock market analyst. Analyze this Telugu YouTube video transcript for investment insights.
+
+Channel: moneypurse
+Title: Next 10 years లో ఈ 10 stocks భారీగా పెరగనున్నాయా? TatvaChintan 500% profit growth reversal started ?
+
+Video Metadata:
+- Duration: 1667 seconds
+- Views: 44136
+- Upload Date: 20250725
+- Likes: 3919
+- Comments: 207
+Video Chapters:
+  - 00:00: Market Update
+  - 03:10: IT Job Cuts
+  - 03:40: 10 stocks For next 10 years
+  - 05:57: SONA BLW internal War start
+  - 07:34: Don't Miss These Stocks
+  - 09:09: 25 OTT apps Ban
+  - 09:43: NSDL IPO Update
+  - 10:06: Comment Of the week
+  - 12:28: Enviro Infra
+  - 12:56: Bajaj Consumer Update
+Description Highlights:
+  - 00:00 Market Update
+  - 03:10 IT Job Cuts 
+  - 03:40 10 stocks For next 10 years
+  - 05:57 SONA BLW internal War start
+  - 07:34 Don't Miss These Stocks 
+  - 09:09 25 OTT apps Ban
+  - 09:43 NSDL IPO Update
+  - 10:06 Comment Of the week
+  - 12:28 Enviro Infra
+  - 12:56 Bajaj Consumer Update
+
+
+Transcript:
+Video Metadata:
+- Duration: 1667 seconds
+- Channel: moneypurse
+- Title: Next 10 years లో ఈ 10 stocks భారీగా పెరగనున్నాయా? TatvaChintan 500% profit growth reversal started?
+
+Video Chapters:
+  - 00:00: Market Update
+  - 03:10: IT Job Cuts
+  - 03:40: 10 stocks For next 10 years
+  - 05:57: SONA BLW internal War start
+  - 07:34: Don't Miss These Stocks
+  - 09:09: 25 OTT apps Ban
+  - 09:43: NSDL IPO Update
+  - 10:06: Comment Of the week
+  - 12:28: Enviro Infra
+  - 12:56: Bajaj Consumer Update
+  - 13:20: BEL Update
+  - 13:55: Rare Earth Issue
+  - 15:14: GRSE & MOIL
+  - 16:01: SpiceJet Update
+  - 16:43: BEL Update
+  - 17:08: Bharat Dynamics
+  - 17:36: Maruti Suzuki
+  - 18:07: Gail Update
+  - 18:52: Dixon Tech
+  - 19:34: Kings Infra
+  - 20:42: Authum Investment
+  - 21:10: Kfintech Result
+  - 21:46: Tatva Chintan Result
+  - 22:40: Bajaj Finance Result
+  - 23:39: Ananta Raj result
+  - 24:00: Laurus Result
+  - 24:54: Sharda Cropchem Result
+  - 25:38: Solara Activa Result
+  - 26:08: Cipla result
+  - 26:33: Paras Defence result
+  - 27:06: Chennai Petrochem result
+
+Cleaned Transcript:
+
+Let's start with the market update. In 2017, on June 25, we saw a series of new rupees being introduced. However, the stock performance for this list was not up to par, which led to a lack of interest from retail investors. Despite this, we saw a surge in the stock price, from 20 rupees to almost 2000 rupees in a short period, before settling at 1600 rupees.
+
+Moving on to the IT job cuts, many popular companies like NRGL have started to buy IPO shares. This has led to a surge in the market, with predictions soaring by 3.16%. Despite some issues with the installation process, the ITK Superothiau Aksu product has performed well.
+
+Next, let's discuss the NSDL IPO update. NSDL's business model is quite similar to P.R.A., but not exactly the same. NSDL offers depository services, which contribute to 43.55% of its revenue. The highest revenue contributor is NSDL payments bank limited, contributing 52.9% to the revenue. Last year, a significant number of accounts were opened through their mobile app, which has helped in combating financial fraud.
+
+Now, let's talk about some stocks that you shouldn't miss. GRSE & MOIL have shown promising growth, while SpiceJet and BEL have also provided positive updates. Bharat Dynamics and Maruti Suzuki are also worth keeping an eye on. Gail and Dixon Tech have provided interesting updates, while Kings Infra and Authum Investment are also showing potential.
+
+Moving on to the results, Kfintech has shown promising results, while Tatva Chintan has reported a significant profit growth. Bajaj Finance, Ananta Raj, Laurus, Sharda Cropchem, Solara Activa, Cipla, Paras Defence, and Chennai Petrochem have also reported their results, which we will discuss in detail in the coming sections.
+
+In conclusion, NSDL is a well-known cash generating business with a strong balance of assets. It's a good investment for retail shareholders who are able to track the business. The company has a strong cash flow and is a common stock in many portfolios. The IPO is set to close on the first of August, and we expect good participation from both institutional and retail sides.
+
+That's all for this video. If you found this information helpful, please like and share it with your friends. Don't forget to subscribe to our channel and activate all notifications. I am Saikrishnapathri, your financial advisor. Until next time, goodbye!
+
+Analyze the content and extract:
+
+1. **Specific stock recommendations** with company names (NSE/BSE symbols if mentioned)
+2. **Price targets, percentage gains, or numerical predictions**
+3. **Market sentiment and reasoning**
+4. **Investment timeframe** (short/medium/long term)
+5. **Risk factors or warnings** mentioned
+6. **Sector analysis or themes**
+7. **Technical analysis signals** (support, resistance, breakouts, etc.)
+8. **Chapter-wise summary** of the video content based on the provided metadata chapters
+
+IMPORTANT CONTEXT:
+- Use the video metadata (duration, engagement, chapters) to understand the content structure
+- If chapters are provided, correlate stock mentions with specific time segments and create summaries for each chapter
+- High engagement (views, likes) may indicate important market insights
+- Pay attention to timestamp information in the description for specific stock discussions
+- Provide a comprehensive chapter-wise breakdown that maps the transcript content to the video structure
+
+Focus on extracting actionable investment information. If no clear recommendations exist, indicate that in the response.
+
+Respond in this exact JSON format:
+{
+  "stock_recommendations": [
+    {
+      "symbol": "STOCK_SYMBOL",
+      "company_name": "Full Company Name",
+      "action": "BUY/SELL/HOLD",
+      "target_price": "if mentioned or null",
+      "rationale": "reason for recommendation",
+      "confidence": 0.0-1.0,
+      "timeframe": "short/medium/long"
+    }
+  ],
+  "market_sentiment": "BULLISH/BEARISH/NEUTRAL",
+  "confidence_score": 0.0-1.0,
+  "key_themes": ["theme1", "theme2", "theme3"],
+  "sector_insights": {
+    "IT": {"mentions": 0, "sentiment": "NEUTRAL", "keywords_found": []},
+    "Banking": {"mentions": 0, "sentiment": "NEUTRAL", "keywords_found": []}
+  },
+  "technical_signals": {
+    "support": {"found": false, "keywords": [], "context": []},
+    "resistance": {"found": false, "keywords": [], "context": []}
+  },
+  "chapter_summary": [
+    {
+      "chapter_title": "Chapter Name",
+      "time_range": "00:00 - 08:53",
+      "key_points": ["point1", "point2", "point3"],
+      "stocks_mentioned": ["STOCK1", "STOCK2"],
+      "main_topics": ["topic1", "topic2"],
+      "summary": "Brief summary of what was discussed in this chapter"
+    }
+  ],
+  "risks_mentioned": ["risk1", "risk2"],
+  "price_targets_mentioned": ["target1", "target2"],
+  "numerical_predictions": ["prediction1", "prediction2"]
+}
+
+Make sure the JSON is valid and complete. If a section has no relevant information, use empty arrays or appropriate null values.

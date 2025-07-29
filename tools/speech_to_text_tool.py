@@ -13,6 +13,7 @@ from typing import Dict, Any, List, Optional, Union
 from dataclasses import dataclass
 from enum import Enum
 import time
+from datetime import datetime
 
 try:
     import whisper
@@ -310,51 +311,47 @@ class SpeechToTextTool(BaseTool):
     ) -> Optional[TranscriptionResult]:
         """Transcribe using OpenAI Whisper"""
         try:
+            # First, get accurate Telugu transcription
+            print(f"🎙️ Transcribing {audio_file} in Telugu...")
+            result = self.whisper_model.transcribe(
+                audio_file,
+                language="te",  # Telugu transcription
+                task="transcribe"  # Get original language first, not translate
+            )
+            
+            original_telugu_text = result["text"]
+            
+            # If translation is enabled, we'll do it in a separate step for better quality
+            translated_text = original_telugu_text
             if enable_translation:
-                # Use Whisper's built-in translation capability
-                result = self.whisper_model.transcribe(
-                    audio_file, 
-                    task="translate",  # Translates to English
-                    language="te"      # Telugu
-                )
-                
-                return TranscriptionResult(
-                    provider="whisper",
-                    original_text=result["text"],
-                    translated_text=result["text"],  # Already translated
-                    confidence=1.0,  # Whisper doesn't provide confidence scores
-                    segments=[
-                        {
-                            "start": seg["start"],
-                            "end": seg["end"],
-                            "text": seg["text"]
-                        }
-                        for seg in result.get("segments", [])
-                    ],
-                    language_detected="te"
-                )
-            else:
-                # Transcribe in original language
-                result = self.whisper_model.transcribe(
+                print(f"🔄 Translating Telugu to English...")
+                # Use Whisper's translate function on the audio directly for better results
+                translate_result = self.whisper_model.transcribe(
                     audio_file,
-                    language="te"
+                    language="te",
+                    task="translate"  # Translate to English
                 )
-                
-                return TranscriptionResult(
-                    provider="whisper",
-                    original_text=result["text"],
-                    confidence=1.0,
-                    segments=[
-                        {
-                            "start": seg["start"],
-                            "end": seg["end"],
-                            "text": seg["text"]
-                        }
-                        for seg in result.get("segments", [])
-                    ],
-                    language_detected="te"
-                )
-                
+                translated_text = translate_result["text"]
+            
+            print(f"✅ Telugu transcription length: {len(original_telugu_text)} chars")
+            print(f"✅ English translation length: {len(translated_text)} chars")
+            
+            return TranscriptionResult(
+                provider="whisper",
+                original_text=original_telugu_text,  # Keep original Telugu
+                translated_text=translated_text if enable_translation else None,
+                confidence=1.0,  # Whisper doesn't provide confidence scores
+                segments=[
+                    {
+                        "start": seg["start"],
+                        "end": seg["end"],
+                        "text": seg["text"]
+                    }
+                    for seg in result.get("segments", [])
+                ],
+                language_detected="te"
+            )
+            
         except Exception as e:
             self.logger.error(f"Whisper transcription failed: {e}")
             return None
@@ -408,14 +405,28 @@ class SpeechToTextTool(BaseTool):
         audio_file: str, 
         output_format: str
     ) -> str:
-        """Save transcription results to file"""
+        """Save transcription results to file with date-based organization"""
         base_name = os.path.splitext(os.path.basename(audio_file))[0]
-        timestamp = time.strftime("%Y%m%d_%H%M%S")
+        
+        # Extract date from audio file path (assumes ./data/videos/YYYY-MM-DD/channelname.wav)
+        audio_dir = os.path.dirname(audio_file)
+        date_part = os.path.basename(audio_dir)  # Should be YYYY-MM-DD
+        
+        # Validate date format, fallback to current date if invalid
+        try:
+            datetime.strptime(date_part, '%Y-%m-%d')
+            target_date = date_part
+        except ValueError:
+            target_date = datetime.now().strftime('%Y-%m-%d')
+        
+        # Create date-based directory structure
+        date_dir = os.path.join(self.output_path, target_date)
+        os.makedirs(date_dir, exist_ok=True)
         
         if output_format == 'json':
             output_file = os.path.join(
-                self.output_path, 
-                f"{base_name}_{result.provider}_{timestamp}.json"
+                date_dir, 
+                f"{base_name}.json"
             )
             
             import json
@@ -432,8 +443,8 @@ class SpeechToTextTool(BaseTool):
         
         elif output_format == 'text':
             output_file = os.path.join(
-                self.output_path,
-                f"{base_name}_{result.provider}_{timestamp}.txt"
+                date_dir,
+                f"{base_name}.txt"
             )
             
             with open(output_file, 'w', encoding='utf-8') as f:
@@ -443,8 +454,8 @@ class SpeechToTextTool(BaseTool):
         
         else:  # srt format
             output_file = os.path.join(
-                self.output_path,
-                f"{base_name}_{result.provider}_{timestamp}.srt"
+                date_dir,
+                f"{base_name}.srt"
             )
             
             with open(output_file, 'w', encoding='utf-8') as f:

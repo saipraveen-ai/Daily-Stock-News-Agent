@@ -1,0 +1,77 @@
+=== LLM RAW RESPONSE FOR MONEYPURSE ===
+Video Title: Next 10 years లో ఈ 10 stocks భారీగా పెరగనున్నాయా? TatvaChintan 500% profit growth reversal started ?
+Response Length: 3049 characters
+Timestamp: 2025-07-27
+================================================================================
+
+{
+  "stock_recommendations": [
+    {
+      "symbol": "NSDL",
+      "company_name": "National Securities Depository Limited",
+      "action": "BUY",
+      "target_price": null,
+      "rationale": "NSDL is a well-known cash generating business with a strong balance of assets. It's a good investment for retail shareholders who are able to track the business. The company has a strong cash flow and is a common stock in many portfolios.",
+      "confidence": 0.8,
+      "timeframe": "medium"
+    },
+    {
+      "symbol": "GRSE",
+      "company_name": "Garden Reach Shipbuilders & Engineers",
+      "action": "BUY",
+      "target_price": null,
+      "rationale": "GRSE has shown promising growth.",
+      "confidence": 0.7,
+      "timeframe": "medium"
+    },
+    {
+      "symbol": "MOIL",
+      "company_name": "MOIL Limited",
+      "action": "BUY",
+      "target_price": null,
+      "rationale": "MOIL has shown promising growth.",
+      "confidence": 0.7,
+      "timeframe": "medium"
+    }
+  ],
+  "market_sentiment": "BULLISH",
+  "confidence_score": 0.7,
+  "key_themes": ["IPO", "Stock Growth", "Financial Results"],
+  "sector_insights": {
+    "IT": {"mentions": 1, "sentiment": "NEUTRAL", "keywords_found": ["IT job cuts"]},
+    "Banking": {"mentions": 1, "sentiment": "BULLISH", "keywords_found": ["NSDL IPO Update"]}
+  },
+  "technical_signals": {
+    "support": {"found": false, "keywords": [], "context": []},
+    "resistance": {"found": false, "keywords": [], "context": []}
+  },
+  "chapter_summary": [
+    {
+      "chapter_title": "Market Update",
+      "time_range": "00:00 - 03:10",
+      "key_points": ["New rupees introduced in 2017", "Stock performance not up to par", "Surge in stock price"],
+      "stocks_mentioned": [],
+      "main_topics": ["Market Update"],
+      "summary": "The video starts with a market update discussing the introduction of new rupees in 2017 and the subsequent performance of the stock market."
+    },
+    {
+      "chapter_title": "IT Job Cuts",
+      "time_range": "03:10 - 03:40",
+      "key_points": ["Companies like NRGL have started to buy IPO shares", "Surge in the market", "ITK Superothiau Aksu product has performed well"],
+      "stocks_mentioned": ["NRGL"],
+      "main_topics": ["IT Job Cuts"],
+      "summary": "The video discusses IT job cuts and how companies like NRGL have started to buy IPO shares, leading to a surge in the market."
+    },
+    {
+      "chapter_title": "NSDL IPO Update",
+      "time_range": "09:43 - 10:06",
+      "key_points": ["NSDL's business model", "Depository services contribute to 43.55% of its revenue", "NSDL payments bank limited contributes 52.9% to the revenue"],
+      "stocks_mentioned": ["NSDL"],
+      "main_topics": ["NSDL IPO Update"],
+      "summary": "The video provides an update on the NSDL IPO, discussing its business model and revenue contributors."
+    }
+  ],
+  "risks_mentioned": ["Lack of interest from retail investors"],
+  "price_targets_mentioned": [],
+  "numerical_predictions": ["Surge in stock price from 20 rupees to almost 2000 rupees"]
+}

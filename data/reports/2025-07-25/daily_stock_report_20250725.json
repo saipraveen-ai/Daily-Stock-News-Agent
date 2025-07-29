@@ -1,0 +1,45 @@
+{
+  "date": "2025-07-25",
+  "channels_processed": [
+    "moneypurse",
+    "daytradertelugu"
+  ],
+  "market_overview": {
+    "overall_sentiment": "NEUTRAL",
+    "channel_sentiments": {
+      "moneypurse": "NEUTRAL",
+      "daytradertelugu": "NEUTRAL"
+    },
+    "key_themes": [],
+    "consensus_level": "HIGH"
+  },
+  "stock_recommendations": {
+    "BUY": [],
+    "SELL": [],
+    "HOLD": []
+  },
+  "sector_analysis": {
+    "sector_insights": {},
+    "top_sectors": [],
+    "sector_rankings": []
+  },
+  "technical_analysis": {},
+  "key_news_events": [],
+  "action_items": [],
+  "channel_comparison": {
+    "sentiment_agreement": {
+      "moneypurse": null,
+      "daytradertelugu": null
+    },
+    "recommendation_overlap": {
+      "moneypurse_vs_daytradertelugu": {
+        "overlap_count": 0,
+        "total_unique": 0,
+        "overlap_percentage": 0
+      }
+    },
+    "unique_insights": {}
+  },
+  "confidence_score": 0.5,
+  "generation_timestamp": "2025-07-27T14:21:27.527707"
+}
